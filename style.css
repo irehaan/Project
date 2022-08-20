@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family:cursive;
+    height:160vh;
+    overflow-x: hidden;
+
+    
+}
+#heading{
+    height:80vh;
+    padding-top: 10px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url("https://i.ytimg.com/vi/2nGucz6DDtA/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:0;
+    width: 100%;
+}
+.heading1{
+    padding-bottom: 350px;
+    cursor: pointer;
+    padding-bottom:6.5px;
+    font-size: 27px;
+    margin: 110px 20px 20px 50px;
+    color: rgb(255, 0, 0);
+   
+}
+.heading2{
+    font-size: 26px;
+    transition: all 1s ease-in-out;
+    cursor: zoom-in;
+    color: rgb(255, 0, 0);
+    
+}
+.heading2:hover{
+    transform: scale(1.5);
+}
+.border{
+width:120%;
+height: 10px;
+background-image: linear-gradient(to right, black 50%, white);
+
+}
+.header .list{
+    height: 20px;
+    position: fixed;
+    background-color: white;
+    top:0;
+    list-style: none;
+    gap: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: grab; 
+    color: black;
+    border-bottom: 1px solid black;
+}
+.header .list:hover{
+    color: red;
+}
+.bottom .last{
+    margin-top: 100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    height:20px;
+    text-align: center;
+    color:white;
+    background-color: black;
+}
+.about .heading3{
+    padding: 100px 0;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+    height: 350px;
+    width: 400px;
+    box-shadow: 0px 3px 5px 2px rgb(255, 0, 0);
+}
